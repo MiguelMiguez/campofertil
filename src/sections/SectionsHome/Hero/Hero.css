@@ -13,8 +13,8 @@
   display: flex;
   justify-content: center;
   align-items: start;
-  background: url("../../../../src/assets/portada/portada 5.jpg") center
-    center/cover no-repeat fixed;
+  background: url("https://res.cloudinary.com/deamcrkgb/image/upload/v1749505965/portada_5_jpx0kr.jpg")
+    center center/cover no-repeat fixed;
   flex-direction: column;
 }
 
