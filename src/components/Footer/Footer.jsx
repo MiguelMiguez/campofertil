@@ -2,6 +2,8 @@ import React from 'react'
 import './Footer.css'
 import LogoVerde from '../../assets/logo/Brand Verde.svg'
 
+const currentYear = () => new Date().getFullYear();
+
 const Footer = () => {
     return (
         <footer>
@@ -23,7 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="ContainerCopy">
-                <p>© 2024 CampoFertil. Todos los derechos reservados.</p>
+                <p>© {currentYear()} CampoFertil. Todos los derechos reservados.</p>
             </div>
         </footer>
     )
