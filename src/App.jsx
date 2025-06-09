@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/home/Home';
+import Insumos from './pages/Insumos/Insumos';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/insumos" element={<Insumos />} />
       </Routes>
     </Router>
   );
