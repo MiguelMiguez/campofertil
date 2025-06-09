@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero__image">
         <div className="hero__logo">
           <img className='hero__logo_image' src={logo} alt="Campo Fertil" />
-          <button className='hero__button'> Contactanos</button>
+          <a href="#contacto" className='hero__button'>Contactanos</a>
         </div>
       </div>
     </section>

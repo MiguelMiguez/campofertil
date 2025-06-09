@@ -1,56 +1,92 @@
-.InsumosHome{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    
+.InsumosHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
 }
 
-.ContainerLogosInsumos{
-    background-color: #F3F3F3;
-    padding: 3rem 0rem 3rem 0rem;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
+.tittle {
+  color: #356e48;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem 0;
 }
 
-.LogosInsumos{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+.ContainerLogosInsumos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
-.Logos{
-    width: 100px;
+.LogosInsumos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(37, 37, 37, 0.247);
+  transition: 0.3s;
+}
+
+.LogosInsumos:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 2px 4px rgba(30, 119, 70, 0.521);
+}
+
+.Logos {
+  width: 80px;
+  height: auto;
+}
+
+.BotonInsumos {
+  margin: 1rem;
+}
+
+.VerTodos {
+  background-color: #356e48;
+  color: white;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-style: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.VerTodos:hover {
+  background-color: white;
+  color: #356e48;
+  transform: translateY(7px);
+
+  box-shadow: 0 2px 4px rgba(37, 37, 37, 0.247);
+}
+
+@media (min-width: 1000px) {
+  .ContainerLogosInsumos {
+    width: 70%;
+    padding: 2rem;
+    margin: 2rem 0;
+  }
+
+  .LogosInsumos {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Logos {
+    width: 120px;
     height: auto;
-}
+  }
 
-.BotonInsumos{
-    margin: 1rem;
-}
-
-.VerTodos{
-    background-color: #356E48;
-    color: white;
-    letter-spacing: 0.5px;
-    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
-    border-radius: 20px;
-    text-transform: uppercase;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: 600;
-    border-style: none;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.575);
-    transition: all 0.3s ease 0s;
-}
-
-.VerTodos:hover{
-    background-color: white;
-    color: #356E48;
-    transform: translateY(-7px);  
+  .tittle {
+    font-size: 2.5rem;
+  }
 }

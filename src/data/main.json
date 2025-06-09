@@ -53,9 +53,6 @@
   ],
   "logosinsumos": [
     {
-      "imagen": "assets/LogosInsumos/bayer.png"
-    },
-    {
       "imagen": "public/LogosInsumos/fmc.svg"
     },
     {
@@ -101,7 +98,7 @@
       "imagen": "public/LogosInsumos/surcos.png"
     },
     {
-      "imagen": "public/LogosInsumos/bunge.png"
+      "imagen": "public/LogosInsumos/Bunge.png"
     }
   ],
   "AgriculturaHome": [

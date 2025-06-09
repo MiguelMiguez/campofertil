@@ -1,13 +1,26 @@
 .mision-section {
+  position: relative;
   width: 100%;
   padding: 100px 0 48px 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(120deg, #f8fff6 60%, #e3f4e8 100%);
+  overflow: hidden;
+}
+
+.mision-section__wave {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 580px;
+  z-index: 0;
+  pointer-events: none;
 }
 
 .mision-container {
-  background: #185c2b;
+  background: #356e48;
   border-radius: 24px;
   box-shadow: 0 2px 4px rgba(37, 37, 37, 0.247);
   max-width: 700px;
@@ -18,6 +31,8 @@
   align-items: center;
   justify-content: center;
   transition: 0.3s;
+  position: relative;
+  z-index: 1;
 }
 
 .mision-container:hover {
@@ -38,11 +53,11 @@
   font-size: 1.15rem;
   line-height: 1.7;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
 }
 
 .mision-animation {
   width: 35%;
+  z-index: 2;
 }
 
 @media (max-width: 900px) {
