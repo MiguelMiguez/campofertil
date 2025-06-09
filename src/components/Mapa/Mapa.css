@@ -4,9 +4,9 @@ iframe {
   height: 300px;
   border: 20px;
 }
-@media (min-width: 400px) {
+@media (min-width: 600px) {
   iframe {
-    width: 600px;
+    width: 400px;
     height: 650px;
   }
 }
