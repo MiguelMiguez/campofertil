@@ -1,3 +1,10 @@
+.Mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 iframe {
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
   width: 350px;
@@ -13,7 +20,7 @@ iframe {
 
 @media (min-width: 1000px) {
   iframe {
-    width: 600px;
-    height: 650px;
+    width: 500px;
+    height: 600px;
   }
 }
