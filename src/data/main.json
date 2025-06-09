@@ -9,36 +9,36 @@
   ],
   "informacionvillaguay": [
     {
-      "imagen": "/public/contacto/adress.png",
+      "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749506415/adress_t7wf2v.png",
       "tituloinformacion": "Dirección",
       "informacionsucursales": "Acceso Carlos Fuertes KM 159.64",
       "ubicacion": "Villaguay - Entre Ríos"
     },
     {
-      "imagen": "/public/contacto/email.png",
+      "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749506415/email_b8fpsa.png",
       "tituloinformacion": "Email",
       "informacionsucursales": "administracion@campofertilsrl.com"
     },
     {
-      "imagen": "/public/contacto/phone.png",
+      "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749506415/phone_jbsu5j.png",
       "tituloinformacion": "Teléfono",
       "informacionsucursales": "3455-528448"
     }
   ],
   "informacionvallemaria": [
     {
-      "imagen": "/public/contacto/adress.png",
+      "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749506415/adress_t7wf2v.png",
       "tituloinformacion": "Dirección",
       "informacionsucursales": "Ruta 11 KM 31.5",
       "ubicacion": "Valle María - Entre Ríos"
     },
     {
-      "imagen": "/public/contacto/email.png",
+      "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749506415/email_b8fpsa.png",
       "tituloinformacion": "Email",
       "informacionsucursales": "vallemaria@campofertilsrl.com"
     },
     {
-      "imagen": "/public/contacto/phone.png",
+      "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749506415/phone_jbsu5j.png",
       "tituloinformacion": "Teléfono",
       "informacionsucursales": "3435-003975"
     }
