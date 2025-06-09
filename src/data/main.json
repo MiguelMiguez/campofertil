@@ -1,0 +1,112 @@
+{
+  "nombresucursal": [
+    {
+      "nombre": "Casa Central"
+    },
+    {
+      "nombre": "Valle María"
+    }
+  ],
+  "informacionvillaguay": [
+    {
+      "imagen": "/public/contacto/adress.png",
+      "tituloinformacion": "Dirección",
+      "informacionsucursales": "Acceso Carlos Fuertes KM 159.64",
+      "ubicacion": "Villaguay - Entre Ríos"
+    },
+    {
+      "imagen": "/public/contacto/email.png",
+      "tituloinformacion": "Email",
+      "informacionsucursales": "administracion@campofertilsrl.com"
+    },
+    {
+      "imagen": "/public/contacto/phone.png",
+      "tituloinformacion": "Teléfono",
+      "informacionsucursales": "3455-528448"
+    }
+  ],
+  "informacionvallemaria": [
+    {
+      "imagen": "/public/contacto/adress.png",
+      "tituloinformacion": "Dirección",
+      "informacionsucursales": "Ruta 11 KM 31.5",
+      "ubicacion": "Valle María - Entre Ríos"
+    },
+    {
+      "imagen": "/public/contacto/email.png",
+      "tituloinformacion": "Email",
+      "informacionsucursales": "vallemaria@campofertilsrl.com"
+    },
+    {
+      "imagen": "/public/contacto/phone.png",
+      "tituloinformacion": "Teléfono",
+      "informacionsucursales": "3435-003975"
+    }
+  ],
+  "mapa": [
+    {
+      "vallemaria": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3383.53192857062!2d-60.59037745235475!3d-32.00070192216055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5cb000d8228b1%3A0x32ed5a5e8c11c639!2sCampo%20Fertil%20Valle%20Maria!5e0!3m2!1ses!2sar!4v1729523420920!5m2!1ses!2sar"
+    },
+    {
+      "villaguay": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDR5unpDzgeL4XcsFtym15Au2XZgemA8I4&q=Campo+F%C3%A9rtil+SRL,-31.811887,-59.027127"
+    }
+  ],
+  "logosinsumos": [
+    {
+      "imagen": "assets/LogosInsumos/bayer.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/fmc.svg"
+    },
+    {
+      "imagen": "public/LogosInsumos/alz.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/amauta.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/atanor.svg"
+    },
+    {
+      "imagen": "public/LogosInsumos/desger.webp"
+    },
+    {
+      "imagen": "public/LogosInsumos/dva.svg"
+    },
+    {
+      "imagen": "public/LogosInsumos/latijereta.svg"
+    },
+    {
+      "imagen": "public/LogosInsumos/nord.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/nova.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/peyte.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/rizobacter.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/ruralco.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/speedagro.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/spraytec.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/surcos.png"
+    },
+    {
+      "imagen": "public/LogosInsumos/bunge.png"
+    }
+  ],
+  "AgriculturaHome": [
+    {
+      "Agricultura": "public/AgriculturaHome/ganaderia.jpg"
+    }
+  ]
+}
