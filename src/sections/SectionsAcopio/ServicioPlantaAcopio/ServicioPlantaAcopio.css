@@ -1,0 +1,72 @@
+.servicio-planta-acopio {
+  width: 100%;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #356e48;
+}
+
+.servicio-planta-acopio__titulo {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.servicio-planta-acopio__contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.servicio-planta-acopio__info ul {
+  color: #fff;
+  font-size: 1.1rem;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.servicio-planta-acopio__info li {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.servicio-planta-acopio__lottie {
+  width: 100%;
+  max-width: 320px;
+  min-height: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Aquí irá tu Lottie */
+}
+
+@media (min-width: 900px) {
+  .servicio-planta-acopio {
+    min-height: 50vh;
+  }
+  .servicio-planta-acopio__contenido {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1100px;
+    gap: 3rem;
+  }
+  .servicio-planta-acopio__info {
+    flex: 1;
+    max-width: 500px;
+  }
+  .servicio-planta-acopio__lottie {
+    flex: 1;
+    max-width: 600px;
+    min-height: 350px;
+  }
+}
