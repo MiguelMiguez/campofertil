@@ -1,8 +1,15 @@
 import React from 'react';
 import './InsumosHome.css';
 import resumeData from '../../../data/main.json';
+import { useNavigate } from 'react-router-dom';
 
 const InsumosHome = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/insumos');
+  };
+
   return (
     <div className='InsumosHome'>
       <h2 className='tittle'>Insumos</h2>
@@ -23,7 +30,7 @@ const InsumosHome = () => {
 
       </div>
       <div className="BotonInsumos">
-        <button className='VerTodos'>VER TODOS</button>
+        <button onClick={handleClick} className='VerTodos'>VER TODOS</button>
       </div>
     </div>
   );

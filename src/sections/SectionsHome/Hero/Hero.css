@@ -13,8 +13,11 @@
   display: flex;
   justify-content: center;
   align-items: start;
-  background: url("https://res.cloudinary.com/deamcrkgb/image/upload/v1749505965/portada_5_jpx0kr.jpg")
-    center center/cover no-repeat fixed;
+  background-image: url("https://res.cloudinary.com/deamcrkgb/image/upload/v1749593486/portada_5_gotypq.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   flex-direction: column;
 }
 
