@@ -10,6 +10,7 @@ import Acopio from './pages/Acopio/Acopio';
 import Logistica from './pages/Logistica/Logistica';
 import Produccion from './pages/Produccion/Produccion';
 import Nosotros from './pages/Nosotros/Nosotros';
+import Contacto from './pages/Contacto/Contacto';
 import ButtonScrollUp from './components/ButtonScrollUp/ButtonScrollUp';
 
 
@@ -28,6 +29,7 @@ function App() {
         <Route path="/logistica" element={<Logistica />} />
         <Route path="/produccion" element={<Produccion />} />
         <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/contacto" element={<Contacto />} />
       </Routes>
       <ButtonScrollUp />
       <Footer />

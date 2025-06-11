@@ -2,7 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import './Tratamientos.css';
 import Insumos from '../../data/insumos.json';
-import Contacto from '../../sections/SectionsHome/Contacto/Contacto';
+import ContactoForm from '../../sections/SectionsHome/ContactoForm/ContactoForm';
+
 
 export default function Tratamientos() {
     const { id } = useParams();
@@ -49,7 +50,7 @@ export default function Tratamientos() {
                 </div>
             )}
             <div className="tratamientos-contacto">
-                <Contacto />
+                <ContactoForm />
             </div>
         </div>
     );

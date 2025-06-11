@@ -4,7 +4,7 @@ import Mision from '../../sections/SectionsHome/Mision/Mision';
 import ButtonScroll from '../../components/ButtonScroll/ButtonScroll';
 import Sucursales from '../../sections/SectionsHome/Sucursales/Sucursales';
 import InsumosHome from '../../sections/SectionsHome/InsumosHome/InsumosHome';
-import Contacto from '../../sections/SectionsHome/Contacto/Contacto';
+import ContactoForm from '../../sections/SectionsHome/ContactoForm/ContactoForm';
 import ServicioPlantaAcopio from '../../sections/SectionsAcopio/ServicioPlantaAcopio/ServicioPlantaAcopio';
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
             <Sucursales />
             <ServicioPlantaAcopio />
             <InsumosHome />
-            <Contacto />
+            <ContactoForm />
 
         </main>
     );

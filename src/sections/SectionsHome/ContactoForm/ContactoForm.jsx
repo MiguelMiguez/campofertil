@@ -1,9 +1,9 @@
 import React from 'react';
 import Form from '../../../components/Form/Form';
-import './Contacto.css';
+import './ContactoForm.css';
 import LogoBlanco from '../../../assets/logo/Brand blanco.svg';
 
-const Contacto = () => {
+export default function ContactoForm() {
     return (
         <section className="contacto-section" id="contacto">
             <div className="contacto-imagen">
@@ -24,4 +24,3 @@ const Contacto = () => {
     );
 };
 
-export default Contacto;
