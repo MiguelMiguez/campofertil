@@ -1,6 +1,8 @@
 import React from "react";
 import "./ServiciosLogistica.css";
 import transportes from "../../../data/logistica.json";
+import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+
 
 export default function ServiciosLogistica() {
     return (
@@ -8,9 +10,11 @@ export default function ServiciosLogistica() {
             <h2 className="servicios-logistica__titulo">
                 Transporte
             </h2>
+
             <p className="servicios-logistica__intro">
                 Brindamos un servicio seguro y eficiente de transporte de granos hacia planta de acopio, industrias o principales puertos del país.
             </p>
+
             <div className="servicios-logistica__items">
                 {transportes.map((item, idx) => (
                     <div

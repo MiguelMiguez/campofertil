@@ -1,0 +1,31 @@
+.produccion-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(https://res.cloudinary.com/deamcrkgb/image/upload/v1749668610/portada_vx0l43.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.produccion-hero-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.produccion-hero-image {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 900px) {
+  .produccion-hero {
+    height: 40vh;
+  }
+}

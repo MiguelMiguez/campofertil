@@ -16,6 +16,13 @@
   margin-bottom: 1rem;
 }
 
+.servicios-logistica__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
 .servicios-logistica__intro {
   color: #356e48;
   font-size: 1.1rem;
@@ -125,5 +132,14 @@
   .servicios-logistica__info h3,
   .servicios-logistica__info p {
     text-align: left;
+  }
+
+  .servicios-logistica__header {
+    flex-direction: row;
+  }
+
+  .servicios-logistica__intro {
+    max-width: 500px;
+    font-size: 1.2rem;
   }
 }

@@ -1,0 +1,112 @@
+.info-produccion {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.info-produccion__block {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(53, 110, 72, 0.07);
+  padding: 2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: flex-start;
+}
+
+.info-produccion__block.reverse {
+  flex-direction: column-reverse;
+}
+
+.info-produccion__text {
+  flex: 2;
+}
+
+.info-produccion__image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.info-produccion__image > * {
+  width: 100%;
+  height: 100%;
+  max-width: 260px;
+  max-height: 260px;
+}
+
+.info-produccion__title {
+  color: #356e48;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  letter-spacing: 1px;
+}
+
+.info-produccion__desc {
+  color: #356e48;
+  font-size: 1.08rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-produccion__list {
+  padding-left: 1.2rem;
+  color: #356e48;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.info-produccion__list li {
+  line-height: 1.6;
+}
+
+@media (min-width: 900px) {
+  .info-produccion {
+    gap: 3rem;
+  }
+  .info-produccion__block,
+  .info-produccion__block.reverse {
+    flex-direction: row;
+    align-items: center;
+    padding: 2.5rem 3rem;
+    gap: 2.5rem;
+    max-width: 100%;
+  }
+  .info-produccion__block.reverse {
+    flex-direction: row-reverse;
+  }
+  .info-produccion__text {
+    flex: 2;
+    min-width: 0;
+  }
+  .info-produccion__image {
+    height: 500px;
+  }
+  .info-produccion__block.reverse .info-produccion__image {
+    margin: 0 2rem 0 0;
+  }
+  .info-produccion__title {
+    font-size: 2rem;
+  }
+  .info-produccion__desc {
+    font-size: 1.15rem;
+  }
+  .info-produccion__list {
+    font-size: 1.08rem;
+  }
+  .info-produccion__image > * {
+    max-width: 380px;
+    max-height: 380px;
+  }
+}

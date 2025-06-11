@@ -1,0 +1,25 @@
+.container-info-produccion {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mision-section__wave {
+  position: absolute;
+  width: 100%;
+  height: 1500px;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+  .mision-section__wave {
+    height: 1000px;
+  }
+}
