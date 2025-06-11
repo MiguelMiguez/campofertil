@@ -32,7 +32,34 @@
   {
     "id": 7,
     "name": "Semillas de maíz",
-    "description": "Ofrecemos híbridos de semillero La Tijereta de última tecnología, la mejor genética, estabilidad, rendimiento y calidad de semilla."
+    "description": "Ofrecemos híbridos de semillero La Tijereta de última tecnología, la mejor genética, estabilidad, rendimiento y calidad de semilla. Comunícate con nuestro equipo técnico para asesorarte en la elección del hibrido que mejor se adapte a tus necesidades.",
+    "productos": [
+      {
+        "nombre": "LT 344 TRE",
+        "detalles": "Genética de muy alta performance y marcada estabilidad. Ideal para aprovechar techos de rinde en buenos ambientes. Buen perfil defensivo. Excelente tolerancia a vuelco e intermedio para quiebre. Perfil sanitario sobresaliente siendo excelente para Mal de Río Cuarto, Tizón y muy bueno para Roya.",
+        "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749651101/722_lhqpvu.jpg"
+      },
+      {
+        "nombre": "LT 725 TRE",
+        "detalles": "Híbrido de muy alta performance en todos los ambientes destacándose en los más productivos. En cuanto a aspectos defensivos, presenta buena tolerancia a quebrado. Excelente perfil sanitario, siendo sobresaliente para Tizón y muy bueno para Roya y Mal de Río Cuarto.",
+        "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749651101/725_rp19d6.jpg"
+      },
+      {
+        "nombre": "LT 723",
+        "detalles": "Ciclo completo de marcada estabilidad y excelente nivel de rendimiento en ambientes de media y alta productividad. Destacada sanidad siendo sobresaliente en Mal de Rio Cuarto y muy bueno a Tizón. Moderadamente susceptible a roya. Baja probabilidad de quiebre y vuelco.",
+        "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749651101/723_ydhs0r.jpg"
+      },
+      {
+        "nombre": "LT 720 VT3P",
+        "detalles": "Ciclo intermedio de gran potencial de rendimiento. Muy buena sanidad, siendo excelente en tizón. Excelente calidad para silo. Muy alto rendimiento de materia seca total digestible.",
+        "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749651101/720_rpgurd.jpg"
+      },
+      {
+        "nombre": "LT 718 VTEP",
+        "detalles": "Ciclo corto ideal para siembras tempranas donde se quiere anticipar cosecha. Muy buen comportamiento a tizón e intermedio para Mal de Rio Cuarto. Bajo riesgo de vuelco, quebrado y Green snap.",
+        "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749651101/718_qjscvy.jpg"
+      }
+    ]
   },
   {
     "id": 8,

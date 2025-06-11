@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './CardInsumos.css';
 
 import fertilizanteIcon from '../../assets/insumos/fertilizante.svg';
@@ -11,6 +12,7 @@ import tratamientosFoliaresIcon from '../../assets/insumos/foliares.svg';
 import fungicidasIcon from '../../assets/insumos/fungicida.svg';
 
 export default function CardInsumos() {
+    const navigate = useNavigate();
     const insumos = [
         { id: 1, name: 'Coadyuvantes', icon: coadyuvantesIcon },
         { id: 2, name: 'Herbicida', icon: herbicidaIcon },
@@ -22,15 +24,22 @@ export default function CardInsumos() {
         { id: 8, name: 'Tratamientos foliares', icon: tratamientosFoliaresIcon }
     ];
 
+    const handleClick = (id) => {
+        navigate(`/tratamientos/${id}`);
+    };
+
     return (
         <div className="card-insumos-container">
             {insumos.map((insumo) => (
-                <button key={insumo.id} className="card-insumos">
+                <button
+                    key={insumo.id}
+                    className="card-insumos"
+                    onClick={() => handleClick(insumo.id)}
+                >
                     <img src={insumo.icon} alt={insumo.name} className="icono-insumo" />
                     <p>{insumo.name}</p>
                 </button>
             ))}
-
         </div>
     );
 }

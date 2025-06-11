@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/home/Home';
 import Insumos from './pages/Insumos/Insumos';
 import Footer from './components/Footer/Footer';
+import Tratamientos from './pages/Tratamientos/Tratamientos';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/insumos" element={<Insumos />} />
+        <Route path="/tratamientos/:id" element={<Tratamientos />} />
       </Routes>
       <Footer />
     </Router>
