@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-.mision-section__wave {
+.mision-section__wave_produccion {
   position: absolute;
   width: 100%;
   height: 1500px;
@@ -19,7 +19,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .mision-section__wave {
+  .mision-section__wave_produccion {
     height: 1000px;
   }
 }

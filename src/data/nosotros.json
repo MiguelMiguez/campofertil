@@ -1,0 +1,17 @@
+{
+  "nuestra_historia": {
+    "titulo": "Nuestra Historia",
+    "contenido": "Campo Fértil S.R.L. nace a fines del año 2013, tomando en cuenta el potencial del mercado de agroquímicos en la zona central productiva de la provincia de Entre Ríos, y con la perspectiva de brindarle una solución integral al productor, en cuanto a las ventas de insumos, asesoramiento y servicios integrados a la producción. El crecimiento de la empresa durante sus años de existencia ha sido vertiginoso, y en la actualidad continúa con constante crecimiento, no solo en la venta de agroquímicos sino también en la diversificación de actividades dentro del sector agropecuario.",
+    "hitos": [
+      "Incorporación de una importante flota de maquinarias agrícolas de última generación y camiones de transporte de cargas.",
+      "Aumento de eficiencia en la producción agrícola y posibilidad de brindar servicios a terceros.",
+      "A mediados de 2019 se incorpora una planta de acopio de cereales y una planta de extrusado de granos, cerrando así el ciclo completo de producción agrícola.",
+      "Capacidad de acondicionamiento y acopio de cereales tanto propios como para terceros.",
+      "Expansión de la venta de agroquímicos con la apertura de una sucursal en Aldea Valle María, abarcando el centro oeste provincial."
+    ]
+  },
+  "vision": {
+    "titulo": "Visión",
+    "contenido": "Nos proyectamos como empresa agroindustrial fundada en sólidos valores como trabajo en equipo, compromiso y confianza. Nuestra esencia se refleja en relaciones cercanas con socios estratégicos como así también colaboradores, creyendo en el potencial conjunto y confiando en la fuerza de la colaboración. Aspiramos a un impacto positivo, no solo en nuestra comunidad, sino también en el medio ambiente. Guiados por la convicción de que creciendo, creyendo y confiando, construimos un camino hacia un futuro sostenible y próspero."
+  }
+}
