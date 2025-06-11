@@ -97,7 +97,7 @@ const Form = () => {
             </div>
             {error && <div className="form-error">{error}</div>}
             <button className="btn-enviar" type="submit">
-                ENVIAR
+                Enviar
             </button>
             {success && (
                 <div className="form-success">

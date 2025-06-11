@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Coadyuvantes",
+    "description": "Contamos con portfolio de adyuvantes de marcas reconocidas que garantizan una optimización en la calidad de las aplicaciones, con fórmulas amigables con el ambiente. Los adyuvantes mejoran las propiedades físicas y químicas de los caldos de pulverización optimizando la performance de Herbicidas, Fungicidas, Insecticidas y Fertilizantes Foliares. Además se le suma propiedades tensioactivas, penetrantes, humectantes, translocantes, antievaporantes, antiespumante y correctoras de calidad de agua, entre otras, durante la pulverización."
+  },
+  {
+    "id": 2,
+    "name": "Herbicida",
+    "description": "Ofrecemos amplia gama de productos para el control de las malezas, desde el barbecho hasta la post emergencia para cada cultivo de nuestra zona. EL ASESORAMIENTO Y RECOMENDACIONES DE NUESTROS TECNICOS ES CLAVE PARA MEJOR ELECCION."
+  },
+  {
+    "id": 3,
+    "name": "Insecticidas",
+    "description": "Ofrecemos LOS MEJORES productos para el control de Insectos plaga que pueden afectar cada uno de los Cultivos. EL ASESORAMIENTO Y RECOMENDACIONES DE NUESTROS TECNICOS ES CLAVE PARA MEJOR ELECCION."
+  },
+  {
+    "id": 4,
+    "name": "Fertilizantes",
+    "description": "Contamos con fertilizantes microgranulados que permiten una nutrición balanceada para el cultivo, con aportes de nitrógeno(N) - fósforo (P) - azufre (S) - zinc (Zn) de forma ultralocalizada junto a la semilla en el surco de siembra, mejorando el acceso a los nutrientes y logrando mejor arranque del cultivo."
+  },
+  {
+    "id": 5,
+    "name": "Fungicidas",
+    "description": "Ofrecemos diferendes alternativas destinados a la prevención y control de enfermedades, logrando un cultivo sano durante todo su ciclo. EL ASESORAMIENTO Y RECOMENDACIONES DE NUESTROS TECNICOS ES CLAVE PARA MEJOR ELECCION."
+  },
+  {
+    "id": 6,
+    "name": "Terapeuticos de semillas",
+    "description": "El control químico de hongos patógenos asociados a la semilla y de suelo es una práctica usual y muy recomendable, ya que permite partir con un cultivo sano asegurando una correcta germinación. Es por esto que ofrecemos productos pensados para lograr un buen cultivo desde el arranque."
+  },
+  {
+    "id": 7,
+    "name": "Semillas de maíz",
+    "description": "Ofrecemos híbridos de semillero La Tijereta de última tecnología, la mejor genética, estabilidad, rendimiento y calidad de semilla."
+  },
+  {
+    "id": 8,
+    "name": "Tratamientos foliares",
+    "description": "El complemento perfecto a la fertilización de arranque, buscando el máximo rendimiento."
+  }
+]

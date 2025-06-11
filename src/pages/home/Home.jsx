@@ -3,7 +3,6 @@ import Hero from '../../sections/SectionsHome/Hero/Hero';
 import Mision from '../../sections/SectionsHome/Mision/Mision';
 import ButtonScroll from '../../components/ButtonScroll/ButtonScroll';
 import Sucursales from '../../sections/SectionsHome/Sucursales/Sucursales';
-import Footer from '../../components/Footer/Footer';
 import InsumosHome from '../../sections/SectionsHome/InsumosHome/InsumosHome';
 import Contacto from '../../sections/SectionsHome/Contacto/Contacto';
 
@@ -16,7 +15,7 @@ const Home = () => {
             <Sucursales />
             <InsumosHome />
             <Contacto />
-            <Footer />
+
         </main>
     );
 };

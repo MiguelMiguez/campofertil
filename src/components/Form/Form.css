@@ -36,10 +36,11 @@
   font-size: 1rem;
   cursor: pointer;
   transition: 0.3s;
+  font-weight: 600;
 }
 
 .btn-enviar:hover {
-  background: #00662c;
+  background: #33af69;
   color: #fff;
 }
 
@@ -78,11 +79,12 @@
 }
 
 .form-success {
-  color: #00662c;
+  color: #f8f8f8;
   font-weight: bold;
   margin-top: 1rem;
   width: 100%;
   text-align: center;
+  transition: 1s;
 }
 
 /* Responsive */
