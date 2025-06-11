@@ -1,6 +1,6 @@
 import React from 'react';
 import './AcopioHero.css';
-
+import LogoBlanco from '../../../assets/logo/Brand blanco.svg';
 
 
 
@@ -8,6 +8,7 @@ import './AcopioHero.css';
 export default function AcopioHero() {
     return (
         <section className="acopio-hero">
+            <img className='acopio-hero-image' src={LogoBlanco} alt="Logo Blanco" />
             <h1 className="acopio-hero-title">Acopio</h1>
         </section>
     );

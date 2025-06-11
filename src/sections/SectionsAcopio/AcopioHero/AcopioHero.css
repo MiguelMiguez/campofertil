@@ -8,13 +8,20 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 .acopio-hero-title {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 10px;
   color: #fff;
 }
+
+.acopio-hero-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 .acopio-hero-description {
   font-size: 1.2rem;
   text-align: center;
