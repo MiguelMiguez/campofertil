@@ -15,9 +15,8 @@
   align-items: start;
   background-image: url("https://res.cloudinary.com/deamcrkgb/image/upload/v1749593486/portada_5_gotypq.webp");
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   flex-direction: column;
 }
 
@@ -93,5 +92,14 @@
 
   .hero__text {
     font-size: 1rem;
+  }
+}
+
+/* DESKTOP OVERRIDES */
+@media (min-width: 900px) {
+  .hero__image {
+    align-items: start;
+    background-position: center;
+    background-attachment: fixed;
   }
 }

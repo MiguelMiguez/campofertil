@@ -6,6 +6,7 @@ import Home from './pages/home/Home';
 import Insumos from './pages/Insumos/Insumos';
 import Footer from './components/Footer/Footer';
 import Tratamientos from './pages/Tratamientos/Tratamientos';
+import Acopio from './pages/Acopio/Acopio';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/insumos" element={<Insumos />} />
         <Route path="/tratamientos/:id" element={<Tratamientos />} />
+        <Route path="/acopio" element={<Acopio />} />
       </Routes>
       <Footer />
     </Router>

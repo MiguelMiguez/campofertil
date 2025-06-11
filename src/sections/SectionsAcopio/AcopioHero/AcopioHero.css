@@ -1,0 +1,22 @@
+.acopio-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: url(https://res.cloudinary.com/deamcrkgb/image/upload/v1749655928/planta_dron_2_mjiinu.webp);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.acopio-hero-title {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.acopio-hero-description {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+}
