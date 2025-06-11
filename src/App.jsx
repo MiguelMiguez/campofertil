@@ -7,7 +7,9 @@ import Insumos from './pages/Insumos/Insumos';
 import Footer from './components/Footer/Footer';
 import Tratamientos from './pages/Tratamientos/Tratamientos';
 import Acopio from './pages/Acopio/Acopio';
+import Logistica from './pages/Logistica/Logistica';
 import ButtonScrollUp from './components/ButtonScrollUp/ButtonScrollUp';
+
 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
         <Route path="/insumos" element={<Insumos />} />
         <Route path="/tratamientos/:id" element={<Tratamientos />} />
         <Route path="/acopio" element={<Acopio />} />
+        <Route path="/logistica" element={<Logistica />} />
       </Routes>
       <ButtonScrollUp />
       <Footer />

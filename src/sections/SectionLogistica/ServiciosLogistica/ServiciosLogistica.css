@@ -1,0 +1,129 @@
+.servicios-logistica {
+  width: 100%;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f8f8f8;
+}
+
+.servicios-logistica__titulo {
+  color: #356e48;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.servicios-logistica__intro {
+  color: #356e48;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.servicios-logistica__items {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.servicios-logistica__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1rem;
+  width: 95vw;
+  max-width: 420px;
+  color: #356e48;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+.servicios-logistica__item.reverse {
+  background: #41724d;
+  color: #fff;
+}
+
+.servicios-logistica__img-container {
+  position: relative;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios-logistica__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 12px rgba(119, 201, 123, 0.301);
+  border: 2px solid #356e48;
+  background: #fff;
+}
+
+.servicios-logistica__item.reverse .servicios-logistica__img {
+  border: 2px solid #fff;
+}
+
+.servicios-logistica__info h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.servicios-logistica__info p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (min-width: 900px) {
+  .servicios-logistica__items {
+    gap: 3.5rem;
+  }
+  .servicios-logistica__item,
+  .servicios-logistica__item.reverse {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    max-width: 1100px;
+    min-height: 300px;
+    padding: 2rem 3rem;
+    text-align: left;
+  }
+  .servicios-logistica__item.reverse {
+    flex-direction: row-reverse;
+  }
+  .servicios-logistica__img-container {
+    margin-bottom: 0;
+    margin-right: 2rem;
+    margin-left: 0;
+  }
+  .servicios-logistica__item.reverse .servicios-logistica__img-container {
+    margin-left: 2rem;
+    margin-right: 0;
+  }
+  .servicios-logistica__img {
+    width: 260px;
+    height: 260px;
+  }
+  .servicios-logistica__info {
+    flex: 1;
+    margin: 0 2rem;
+    text-align: left;
+  }
+  .servicios-logistica__info h3,
+  .servicios-logistica__info p {
+    text-align: left;
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Batea",
+    "descripcion": "Transporte ideal para cargas a granel como cereales, semillas y tierra. Su sistema hidráulico permite la descarga trasera por volcado, facilitando operaciones rápidas y eficientes en campos, acopios y obras. Ofrece una gran capacidad de carga y robustez.",
+    "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749666357/batea_uq4xih.jpg"
+  },
+  {
+    "nombre": "Semirremolque Cerealero",
+    "descripcion": "Diseñado específicamente para el transporte de granos y semillas. Cuenta con compartimientos herméticos y compuertas inferiores para una descarga controlada por gravedad. Es la opción preferida para traslados seguros y eficientes en distancias largas.",
+    "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749666357/semirremolque_fjyvmz.jpg"
+  },
+  {
+    "nombre": "Baranda Volcable",
+    "descripcion": "Versátil y funcional, este camión cuenta con barandas laterales rebatibles y un sistema de volcamiento trasero. Ideal para transportar cereales embolsados, semillas a granel u otras cargas agrícolas. Facilita la carga y descarga desde los laterales o por volcamiento.",
+    "imagen": "https://res.cloudinary.com/deamcrkgb/image/upload/v1749666382/baranda_volcable_yascnw.jpg"
+  }
+]

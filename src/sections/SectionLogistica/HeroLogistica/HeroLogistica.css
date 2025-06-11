@@ -1,0 +1,58 @@
+.hero-logistica {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("https://res.cloudinary.com/deamcrkgb/image/upload/v1749664994/logisitca_eofcen.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  box-sizing: border-box;
+  min-height: 40vh;
+  height: 40vh;
+  max-height: 40vh;
+}
+
+.hero-logistica__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+}
+
+.hero-logistica__image {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+}
+
+.hero-logistica__title {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 0;
+  text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Desktop */
+@media (min-width: 900px) {
+  .hero-logistica {
+    min-height: 40vh;
+    height: 40vh;
+    max-height: 40vh;
+  }
+  .hero-logistica__image {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+  }
+  .hero-logistica__title {
+    font-size: 3rem;
+  }
+}

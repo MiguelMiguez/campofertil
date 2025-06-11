@@ -27,7 +27,7 @@ const Navbar = () => {
           <li><Link to="/" onClick={closeMenu}>INICIO</Link></li>
           <li><Link to="/insumos" onClick={closeMenu}>INSUMOS</Link></li>
           <li><Link to="/acopio" onClick={closeMenu}>ACOPIO</Link></li>
-          <li><Link to="/logistica" onClick={closeMenu}>LOGISTICA</Link></li>
+          <li><Link to="/logistica" onClick={closeMenu}>LOGÍSTICA</Link></li>
           <li><Link to="/produccion" onClick={closeMenu}>PRODUCCIÓN</Link></li>
           <li><Link to="/nosotros" onClick={closeMenu}>NOSOTROS</Link></li>
           <li><Link to="/contacto" onClick={closeMenu}>CONTACTO</Link></li>

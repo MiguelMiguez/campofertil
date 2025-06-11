@@ -4,12 +4,14 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-image: url(https://res.cloudinary.com/deamcrkgb/image/upload/v1749655928/planta_dron_2_mjiinu.webp);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url(https://res.cloudinary.com/deamcrkgb/image/upload/v1749655928/planta_dron_2_mjiinu.webp);
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 90vh;
 }
+
 .acopio-hero-title {
   font-size: 3rem;
   margin-bottom: 10px;
@@ -17,13 +19,19 @@
 }
 
 .acopio-hero-image {
-  width: 300px;
+  width: 200px;
   height: auto;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .acopio-hero-description {
   font-size: 1.2rem;
   text-align: center;
   color: #fff;
+}
+
+@media only screen and (min-width: 900px) {
+  .acopio-hero {
+    height: 40vh;
+  }
 }
