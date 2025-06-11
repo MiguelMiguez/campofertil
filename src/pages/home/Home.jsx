@@ -6,7 +6,7 @@ import Sucursales from '../../sections/SectionsHome/Sucursales/Sucursales';
 import InsumosHome from '../../sections/SectionsHome/InsumosHome/InsumosHome';
 import Contacto from '../../sections/SectionsHome/Contacto/Contacto';
 
-const Home = () => {
+export default function Home() {
     return (
         <main>
             <Hero />
@@ -20,4 +20,3 @@ const Home = () => {
     );
 };
 
-export default Home;

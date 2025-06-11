@@ -52,4 +52,10 @@
   .card-insumos-container {
     margin: 20px;
   }
+
+  .card-insumos {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+  }
 }
