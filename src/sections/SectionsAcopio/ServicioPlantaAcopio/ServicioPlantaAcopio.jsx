@@ -6,7 +6,7 @@ import './ServicioPlantaAcopio.css';
 const ServicioPlantaAcopio = () => {
     return (
         <section className="servicio-planta-acopio">
-            <h2 className="servicio-planta-acopio__titulo">Servicios de la Planta</h2>
+            <h2 className="servicio-planta-acopio__titulo">Servicios de la planta de acopio</h2>
             <div className="servicio-planta-acopio__contenido">
                 <div className="servicio-planta-acopio__info">
                     <ul>

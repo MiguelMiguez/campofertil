@@ -5,6 +5,7 @@ import ButtonScroll from '../../components/ButtonScroll/ButtonScroll';
 import Sucursales from '../../sections/SectionsHome/Sucursales/Sucursales';
 import InsumosHome from '../../sections/SectionsHome/InsumosHome/InsumosHome';
 import Contacto from '../../sections/SectionsHome/Contacto/Contacto';
+import ServicioPlantaAcopio from '../../sections/SectionsAcopio/ServicioPlantaAcopio/ServicioPlantaAcopio';
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
             <ButtonScroll />
             <Mision />
             <Sucursales />
+            <ServicioPlantaAcopio />
             <InsumosHome />
             <Contacto />
 
