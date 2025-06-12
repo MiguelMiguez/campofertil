@@ -67,7 +67,7 @@ Desarrollamos actividades agrícolas y ganaderas, utilizando tecnología y buena
 
 ## 📄 Licencia
 
-Este proyecto es de uso privado para Campo Fértil S.R.L. Contacto para uso o colaboración: [miguelmiguez@gmail.com](mailto:miguelmiguez@gmail.com)
+Este proyecto es de uso privado para Campo Fértil S.R.L. Contacto para uso o colaboración: [miguelmiguezangel@gmail.com](mailto:miguelmiguezangel@gmail.com)
 
 ---
 
