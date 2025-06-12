@@ -15,7 +15,7 @@
   align-items: start;
   background-image: url("https://res.cloudinary.com/deamcrkgb/image/upload/v1749593486/portada_5_gotypq.webp");
   background-size: cover;
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   flex-direction: column;
 }

@@ -21,6 +21,7 @@ function App() {
   return (
     <Router>
       <ScrollTop />
+      <ButtonScrollUp />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
