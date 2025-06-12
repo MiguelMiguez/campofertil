@@ -8,7 +8,7 @@ const ComponenteSucursal = ({ nombresucursal, informacion, mapUrl }) => {
       <div className='TarjetaSucursal'>
         <p className="TituloSucursal">Sucursales</p>
         <h2 className="NombreSucursal">{nombresucursal}</h2>
-        <hr />
+        <span className="SpanSucursal"></span>
         <div className="Informacion">
           {informacion.map((item, index) => (
             <div key={index} className="ContainerInformacion">
@@ -27,7 +27,7 @@ const ComponenteSucursal = ({ nombresucursal, informacion, mapUrl }) => {
         </div>
       </div>
       <div>
-        <Mapa url={mapUrl} /> 
+        <Mapa url={mapUrl} />
       </div>
     </div>
   );

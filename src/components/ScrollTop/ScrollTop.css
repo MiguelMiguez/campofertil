@@ -1,0 +1,35 @@
+.button-scroll-up {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 2;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(40px) scale(0.95);
+  animation: fadeInUp 0.4s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 0.95;
+    pointer-events: auto;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.button-scroll-up:hover {
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+@media (max-width: 600px) {
+  .button-scroll-up {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

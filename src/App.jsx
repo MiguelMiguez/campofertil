@@ -12,14 +12,15 @@ import Produccion from './pages/Produccion/Produccion';
 import Nosotros from './pages/Nosotros/Nosotros';
 import Contacto from './pages/Contacto/Contacto';
 import ButtonScrollUp from './components/ButtonScrollUp/ButtonScrollUp';
+import ScrollTop from './components/ScrollTop/ScrollTop';
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router>
+      <ScrollTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
