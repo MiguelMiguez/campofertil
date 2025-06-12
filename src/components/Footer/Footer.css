@@ -2,7 +2,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 0 0 0;
+  padding: 2rem 0 2rem 0;
   background-color: white;
   filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.08));
 }
@@ -24,12 +24,12 @@ footer {
 
 .ContainerNavbarFooter ul {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
   padding: 0;
-  margin: 0;
+  margin: 1rem;
   list-style: none;
   color: #00471a;
   font-size: 1rem;
@@ -37,9 +37,23 @@ footer {
   text-transform: uppercase;
 }
 
-.ContainerNavbarFooter ul li:hover {
+.ContainerNavbarFooter ul li a,
+.ContainerNavbarFooter ul li a:visited,
+.ContainerNavbarFooter ul li a:active {
+  color: #00471a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.ContainerNavbarFooter ul li a:hover {
   color: #fe6600;
   cursor: pointer;
+}
+
+.SocialIcon {
+  width: 24px;
+  height: 24px;
 }
 
 .ContainerSocialMedia {
@@ -62,6 +76,7 @@ footer {
 
 .ContainerSocialMedia img:hover {
   transform: translateY(-7px);
+  background-color: #fe6600;
 }
 
 .ContainerCopy {
@@ -75,6 +90,32 @@ footer {
   font-family: "Montserrat", sans-serif;
   color: #00471a;
   font-size: 1rem;
+}
+
+.ContainerCopy.developer {
+  padding: 0.5rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContainerCopy.developer p {
+  color: #888;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.ContainerCopy.developer p a {
+  color: rgb(223, 105, 31);
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.ContainerCopy.developer p a:hover {
+  color: #fe6600;
+  transform: scale(1.2);
 }
 
 /* Desktop layout */
