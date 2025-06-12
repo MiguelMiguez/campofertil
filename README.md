@@ -71,4 +71,4 @@ Este proyecto es de uso privado para Campo Fértil S.R.L. Contacto para uso o co
 
 ---
 
-**Campo Fértil S.R.L.** — Comprometidos con el crecimiento del campo argentino.
+**Campo Fértil S.R.L.**
