@@ -40,10 +40,11 @@ footer {
 .ContainerNavbarFooter ul li a,
 .ContainerNavbarFooter ul li a:visited,
 .ContainerNavbarFooter ul li a:active {
-  color: #00471a;
+  font-size: 1rem;
+  color: #185c2b;
   text-decoration: none;
-  font-weight: 500;
   transition: color 0.2s;
+  letter-spacing: 1px;
 }
 
 .ContainerNavbarFooter ul li a:hover {
