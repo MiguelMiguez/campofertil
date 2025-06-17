@@ -9,14 +9,14 @@ const ServicioPlantaAcopio = () => {
             <h2 className="servicio-planta-acopio__titulo">Servicios de la planta de acopio</h2>
             <div className="servicio-planta-acopio__contenido">
                 <div className="servicio-planta-acopio__info">
-                    <ul>
-                        <li>Recepción y acondicionamiento de cereales y oleaginosas.</li>
-                        <li>Almacenaje seguro y controlado.</li>
-                        <li>Despacho eficiente de mercadería.</li>
-                        <li>Asesoramiento técnico para productores.</li>
-                        <li>Gestión de logística y transporte.</li>
-                        <li>Control de calidad y trazabilidad.</li>
-                    </ul>
+
+                    <p>Recepción y acondicionamiento de cereales y oleaginosas.</p>
+                    <p>Almacenaje seguro y controlado.</p>
+                    <p>Despacho eficiente de mercadería.</p>
+                    <p>Asesoramiento técnico para productores.</p>
+                    <p>Gestión de logística y transporte.</p>
+                    <p>Control de calidad y trazabilidad.</p>
+
                 </div>
                 <div className="servicio-planta-acopio__lottie">
                     <DotLottieReact

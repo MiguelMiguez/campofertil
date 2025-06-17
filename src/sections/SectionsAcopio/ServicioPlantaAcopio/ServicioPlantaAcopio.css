@@ -27,14 +27,15 @@
   max-width: 500px;
 }
 
-.servicio-planta-acopio__info ul {
+.servicio-planta-acopio__info {
   color: #fff;
   font-size: 1.1rem;
   padding-left: 1.2rem;
   margin: 0;
+  text-align: center;
 }
 
-.servicio-planta-acopio__info li {
+.servicio-planta-acopio__info p {
   margin-bottom: 1rem;
   line-height: 1.5;
 }

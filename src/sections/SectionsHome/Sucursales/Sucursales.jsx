@@ -20,9 +20,21 @@ const Sucursales = () => {
   return (
     <div className='Sucursales'>
       <div className="InfoSucursales">
-        <h2 className="TituloSucursales">Sucursales</h2>
+        <h2 className="TituloSucursales">¿Dónde nos encontrás?</h2>
+        <br />
         <p className='TextoSucursales'>
-          Campo Fértil S.R.L. cuenta con dos sucursales principales. La sede central está ubicada en Villaguay, Entre Ríos, donde se realizan actividades de venta de agroquímicos, acondicionamiento y acopio de cereales, y servicios de transporte. La otra sucursal se encuentra en Aldea Valle María, enfocándose en la venta de agroquímicos y cubriendo la zona de influencia del centro oeste provincial.
+          <strong>Villaguay, Entre Ríos</strong>
+          <br />
+          Casa central. Desde aquí coordinamos la venta de
+          agroquímicos, el acopio y acondicionamiento de
+          granos, y nuestros servicios de transporte.
+          <br />
+          <br />
+          <strong>Aldea Valle María, Entre Ríos</strong>
+          <br />
+          Sucursal enfocada en la venta de agroquímicos,
+          brindando atención a toda la zona centro-oeste de la
+          provincia.
         </p>
       </div>
       {sucursalesData.map((sucursal, idx) => (
