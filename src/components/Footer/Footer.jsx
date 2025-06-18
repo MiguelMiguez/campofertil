@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="ContainerCopy developer">
                 <p>
                     Developed & designed by{" "}
-                    <a href="https://miguelmiguezporfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://miguelmiguezportfolio.netlify.app/" target="_blank" rel="noopener noreferrer">
                         mm
                     </a>
                 </p>
