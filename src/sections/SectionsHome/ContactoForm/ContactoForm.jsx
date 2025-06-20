@@ -14,7 +14,7 @@ export default function ContactoForm() {
                 />
             </div>
             <div>
-                <h2 className="contacto-titulo">contactanos</h2>
+                <h2 className="contacto-titulo">contáctanos</h2>
                 <p className="contacto-subtitulo">
                     Nosotros nos <span className="contacto-destacado">encargamos de todo!</span>
                 </p>
